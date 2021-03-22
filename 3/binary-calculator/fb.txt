@@ -1,0 +1,7 @@
+180
+
+The task is not clear if we need to do our own functions that handle the operations or do we need to use th binary operators for C. 
+I started by doing my own functions after that I just used the binary operators like a&b and a^b. 
+Also the task is not clear if our program needs to work for negative numbers as well or not. 
+I had problem with representing the negative numbers, for example if I had 9 - 7 it worked fine but if I typed 7 - 9 it showed only zeros. 
+It took me some time to fix this problem but at the end I managed to do it.

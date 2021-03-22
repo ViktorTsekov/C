@@ -1,0 +1,9 @@
+gy001040,26
+factor/marked.txt:8/10 marks
+loops/marked.txt:9/12 marks
+strtoint/marked.txt:7/8 marks
+tutorial-gcd/marked.txt:2/2 marks
+factor/marked.txt:8/10 marks
+loops/marked.txt:9/12 marks
+strtoint/marked.txt:7/8 marks
+tutorial-gcd/marked.txt:2/2 marks

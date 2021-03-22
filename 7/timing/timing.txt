@@ -1,0 +1,11 @@
+n, for loop, recursive, strcmp
+1, 4000, 2000, 2000
+10, 2000, 2000, 2000
+100, 2000, 4000, 2000
+1000, 11000, 45000.00, 13000
+10000, 96000, 441000, 98000
+
+The time of the performance is measured in nanoseconds.
+What we can see is that to 100 iterations the time taken for the three operations stays pretty much the same.
+But when we reach 1000 and 10000 iterations the time taken increases exponentially.
+

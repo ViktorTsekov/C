@@ -1,0 +1,3 @@
+/*Behaviour of the script*/
+
+The code prints the numbers from 0 to 10 which give remainder of 0 when devided by 4

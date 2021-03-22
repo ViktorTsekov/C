@@ -1,0 +1,4 @@
+Fixed1 is OK
+Fixed2 produces unexpected output
+Fixed3 is OK
+4/6 marks

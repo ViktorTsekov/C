@@ -1,0 +1,15 @@
+gy001040,30
+binary-calculator/marked.txt:12/12 marks
+binary-calculator/marked.txt:3/3 marks
+linecount/marked.txt:4/4 marks
+linecount/marked.txt:1/1 marks
+syntax-error-easy/marked.txt:4/4 marks
+syntax-error/marked.txt:4/6 marks
+tutorial/algorithmic-thinking/marked.txt:2/2 marks
+binary-calculator/marked.txt:12/12 marks
+binary-calculator/marked.txt:3/3 marks
+linecount/marked.txt:4/4 marks
+linecount/marked.txt:1/1 marks
+syntax-error-easy/marked.txt:4/4 marks
+syntax-error/marked.txt:4/6 marks
+tutorial/algorithmic-thinking/marked.txt:2/2 marks

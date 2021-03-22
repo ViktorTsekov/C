@@ -1,0 +1,69 @@
+Trying to build array-stats 
+gcc -I. -Wall main.c my_lib.c -lm
+OK!
+Test 1 OK
+Test 10 ERR: 125 returned by program did you use 'int main' as prototype and return 0 from main?
+ERR: data doesn't match.
+Arguments: sd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+>>> Got >>>>>>>>
+*** stack smashing detected ***: <unknown> terminated
+xargs: ././a.out: terminated by signal 6
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+0.0
+<<<<<<<<<<<<<<<<
+Test 11 ERR: 125 returned by program did you use 'int main' as prototype and return 0 from main?
+ERR: data doesn't match.
+Arguments: max 0 0 0 0 0 -1 0 0 0 0 0 -2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+>>> Got >>>>>>>>
+*** stack smashing detected ***: <unknown> terminated
+xargs: ././a.out: terminated by signal 6
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+0.0
+<<<<<<<<<<<<<<<<
+Test 12 ERR: data doesn't match.
+Arguments: max -1000000
+>>> Got >>>>>>>>
+0
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+-1000000.0
+<<<<<<<<<<<<<<<<
+Test 2 ERR: data doesn't match.
+Arguments: max 10 20 15 30 50 100 78
+>>> Got >>>>>>>>
+100
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+100.0
+<<<<<<<<<<<<<<<<
+Test 3 OK
+Test 4 OK
+Test 5 OK
+Test 6 OK
+Test 7 ERR: data doesn't match.
+Arguments: max -4 -10 -20 -5 -3
+>>> Got >>>>>>>>
+0
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+-3.0
+<<<<<<<<<<<<<<<<
+Test 8 OK
+Test 9 ERR: data doesn't match.
+Arguments: max 1073741824 -1073741824
+>>> Got >>>>>>>>
+1073741824
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+1073741824.0
+<<<<<<<<<<<<<<<<
+
+6/12 marks

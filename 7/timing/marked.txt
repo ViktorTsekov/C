@@ -1,0 +1,12 @@
+timing.pdf is provided
+Checking timing.txt
+Enough text provided
+Trying to build code.c: 
+gcc -Wall code.c
+OK!
+First row seems to be OK!
+Output seems to be OK
+Head OK!
+First row seems to be OK!
+Output seems to be OK
+12/12 marks

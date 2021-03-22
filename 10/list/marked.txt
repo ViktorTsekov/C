@@ -1,0 +1,40 @@
+Trying to build with the prescribed API
+gcc -Wall -g3 /mnt/10/./list/test/main.c list.c -I.
+/mnt/10/./list/test/main.c: In function 'traversefunc':
+/mnt/10/./list/test/main.c:8:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   printf("%d\n", (int) data);
+                  ^
+/mnt/10/./list/test/main.c:9:14: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   counter += (int) data;
+              ^
+/mnt/10/./list/test/main.c: In function 'main':
+/mnt/10/./list/test/main.c:20:27: warning: passing argument 1 of 'list_init' makes pointer from integer without a cast [-Wint-conversion]
+   list_t * l1 = list_init(1);
+                           ^
+In file included from /mnt/10/./list/test/main.c:3:0:
+./list.h:9:10: note: expected 'void *' but argument is of type 'int'
+ list_t * list_init(void * value);
+          ^~~~~~~~~
+/mnt/10/./list/test/main.c:25:33: warning: passing argument 2 of 'list_append' makes pointer from integer without a cast [-Wint-conversion]
+   list_t * l2 = list_append(l1, 2);
+                                 ^
+In file included from /mnt/10/./list/test/main.c:3:0:
+./list.h:19:10: note: expected 'void *' but argument is of type 'int'
+ list_t * list_append(list_t * lst, void* value);
+          ^~~~~~~~~~~
+/mnt/10/./list/test/main.c:29:33: warning: passing argument 2 of 'list_append' makes pointer from integer without a cast [-Wint-conversion]
+   list_t * l3 = list_append(l2, 3);
+                                 ^
+In file included from /mnt/10/./list/test/main.c:3:0:
+./list.h:19:10: note: expected 'void *' but argument is of type 'int'
+ list_t * list_append(list_t * lst, void* value);
+          ^~~~~~~~~~~
+/mnt/10/./list/test/main.c:111:3: error: too many arguments to function 'list_free'
+   list_free(l3, freefunc);
+   ^~~~~~~~~
+In file included from /mnt/10/./list/test/main.c:3:0:
+./list.h:14:6: note: declared here
+ void list_free(list_t * lst);
+      ^~~~~~~~~
+Error, couldn't build using the API
+0/12 marks

@@ -1,0 +1,28 @@
+Trying to build factor: 
+gcc -Wall factor.c my_math.c
+Test 1 OK
+Test 10 OK
+Test 2 OK
+Test 3 OK
+Test 4 OK
+Test 5 OK
+Test 6 ERR: data doesn't match
+>>> Got >>>>>>>>
+Prime number
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+3
+<<<<<<<<<<<<<<<<
+Test 7 ERR: data doesn't match
+>>> Got >>>>>>>>
+Prime number
+<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+1
+<<<<<<<<<<<<<<<<
+Test 8 OK
+Test 9 OK
+
+8/10 marks

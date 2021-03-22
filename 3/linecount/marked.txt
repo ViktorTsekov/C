@@ -1,0 +1,9 @@
+Line Counter: 10
+compile.sh works
+Test 0 OK
+Test 1 OK
+Test 2 OK
+Test 5 OK
+
+4/4 marks
+1/1 marks

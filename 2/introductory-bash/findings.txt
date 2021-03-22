@@ -1,0 +1,63 @@
+1.$ echo "Hello World"
+	-prints Hello World
+2.$ echo Hello, World
+	-prints Hello, World
+3.$ echo Hello, world; Foo bar
+	-prints Hello, world and does not recognize foo bar as a command
+4.$ echo Hello, world!
+	-prints Hello, world!
+5.$ echo "line one";echo "line two"
+	-prints line one and line two on different rows
+6.$ echo "Hello, world > readme"
+	-prints Hello, world > readme
+7.$ echo "Hello, world" > readme
+	-the following command does not produce any output
+8.$ cat readme
+	-prints Hello, world
+	-I assume the previous command created a variable with the name of readme and here we are just accessing it
+9.$ example="Hello, World"
+	-we declare variable example
+10.$ echo $example
+	-prints Hello, World
+11.$ echo ’$example’
+	-prints 'Hello, World'
+12.$ echo "$example"
+	-prints Hello, World
+13.$ echo "Please enter your name."; read example#
+	-prints Please enter your name and waits for input
+14.$ echo "Hello $example"
+	-with input Viktor outputs Hello Viktor
+15.$ three=1+1+1;echo $three
+	-prints 1+1+1
+16.$ bc
+	-prints details about the software and about its warranty 
+17.$ echo 1+1+1 | bc
+	-prints 3
+18.$ let three=1+1+1;echo $three
+	-prints 3
+19.$ echo date
+	-prints date
+20.$ cal
+	-prints the callendar with the todays date
+21.$ which cal
+	-prints the followin path: /usr/bin/cal
+22.$ /bin/cal
+	-does not recognize it as a file or directory
+23.$ $(which cal)
+	-prints the callendar with the todays date
+24.$ ‘which cal‘
+	-does not recognize which as a command
+25.$ echo "The date is $(date)"
+	-prints The date is and the todays date
+26.$ seq 0 9
+	-prints the numbers from 0 to 9
+27.$ seq 0 9 | wc -l
+	-prints 10
+28.$ seq 0 9 > sequence
+	-creates file named sequence with the numbers of 0 to 9
+29.$ wc -l < sequence
+	-prints 10
+30.$ for I in $(seq 1 9) ; do echo $I ; done
+	-prints the numbers from 0 to 9
+31.$ (echo -n 0 ; for I in $(seq 1 9) ; do echo -n +$I ; done ; echo) | bc
+	-prints 45

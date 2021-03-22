@@ -1,0 +1,3 @@
+60
+
+I had some problem turning the number from string to an integer because I did not know how to function atoi() is working.

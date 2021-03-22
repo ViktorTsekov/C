@@ -1,0 +1,12 @@
+int dev;
+int flag = 0;
+
+if(x < y) {
+  dev = x;
+} else if(x > y) {
+  dev = y;
+}
+
+while(flag != 1) {
+  //keep lowering dev by 1 until we find a number that gives remainder of 0 when we devide x and y by it
+}

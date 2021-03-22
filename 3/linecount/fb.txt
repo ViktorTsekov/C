@@ -1,0 +1,3 @@
+60
+
+It took me some time to figure out how to read the file and how to use the commands. After I figured it out it was easy to finish the task.

@@ -1,0 +1,4 @@
+Checking algorithm.txt
+Enough text provided
+Found the right answer!
+3/3 marks

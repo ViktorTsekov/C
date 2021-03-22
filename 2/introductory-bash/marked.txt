@@ -1,0 +1,5 @@
+Checking findings.txt
+Enough text provided
+Checking report.txt
+File doesn't exist
+9/9 marks

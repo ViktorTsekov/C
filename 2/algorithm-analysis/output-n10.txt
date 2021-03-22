@@ -1,0 +1,9 @@
+Input: natural number n (with n > 1)
+Output: a list of numbers
+
+for i = 0, 1, 2, 3, 4, ..., not exceeding n:
+	if the remainder of i / 4 == 0:
+		print i
+
+Example input: n = 10
+Example output: 0, 4, 8

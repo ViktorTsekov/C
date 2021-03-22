@@ -1,0 +1,2 @@
+The task is not very complex. 
+It does a simple operation by finding the sum of n iterations to the piower of 2.

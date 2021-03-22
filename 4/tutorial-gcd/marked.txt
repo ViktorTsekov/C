@@ -1,0 +1,6 @@
+Trying to build gcd.c 
+gcc -Wall gcd.c my_gcd_lib.c -I.
+Result OK
+Trying to use gcd()
+Result OK
+2/2 marks

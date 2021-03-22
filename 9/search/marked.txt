@@ -1,0 +1,95 @@
+++ dirname /mnt/9/./search/run-marking.sh
++ dir=/mnt/9/./search
++ ACHIEVED=0
++ TOTAL=10
++ [[ -s graph.pdf ]]
++ ACHIEVED=1
++ [[ -e naive.c ]]
++ echo 'Trying to build naive.c as you defined it!'
+Trying to build naive.c as you defined it!
+++ grep gcc run.sh
+++ grep binary.c
++ CMD=
++ [[ '' == '' ]]
++ echo 'No command specified in run.sh!'
+No command specified in run.sh!
++ echo gcc -Wall naive.c -I.
+gcc -Wall naive.c -I.
++ gcc -Wall naive.c -I.
++ [[ 0 == \0 ]]
++ echo 'OK!'
+OK!
++ checkExample
++ ./a.out 1 10 10
++ cut -d , -f -3
++ echo 1,10,10
++ diff -w tmp expected
++ ACHIEVED=2
++ echo 'Output seems to be OK!'
+Output seems to be OK!
++ echo
+
++ echo ./a.out 1 10 10
+./a.out 1 10 10
++ ./a.out 10 1000 100
++ cat tmp
+10,1000,100,2
+++ egrep -e '^[0-9e\-]+,[0-9e\-]+,[0-9e\-]+,[.0-9e\-]+$' tmp
+++ wc -l
++ COUNT=1
++ [[ 1 == \1 ]]
++ ACHIEVED=4
++ echo 'Output has the correct format'
+Output has the correct format
++ grep :
++ ./a.out 10 1000 10 1
+++ awk '{for(i=1;i<=NF;i++){sum+=1}}END{print sum}' 'RS=$' 'FPAT=-{0,1}[0-9]+' tmp
++ COUNT=
++ [[ '' == \1\0 ]]
++ echo 'Debugging output doesn'\''t match'
+Debugging output doesn't match
++ [[ -e binary.c ]]
++ echo 'Trying to build binary.c as you defined it!'
+Trying to build binary.c as you defined it!
+++ grep gcc run.sh
+++ grep binary.c
++ CMD=
++ [[ '' == '' ]]
++ echo 'No command specified in run.sh!'
+No command specified in run.sh!
++ echo gcc -Wall binary.c -I.
+gcc -Wall binary.c -I.
++ gcc -Wall binary.c -I.
++ [[ 0 == \0 ]]
++ echo 'OK!'
+OK!
++ checkExample
++ ./a.out 1 10 10
++ cut -d , -f -3
++ echo 1,10,10
++ diff -w tmp expected
++ ACHIEVED=5
++ echo 'Output seems to be OK!'
+Output seems to be OK!
++ echo
+
++ echo ./a.out 1 10 10
+./a.out 1 10 10
++ ./a.out 10 1000 100
+/mnt/9/./search/run-marking.sh: line 36:    42 Segmentation fault      ./a.out 10 1000 100 > tmp
++ cat tmp
+++ egrep -e '^[0-9e\-]+,[0-9e\-]+,[0-9e\-]+,[.0-9e\-]+$' tmp
+++ wc -l
++ COUNT=0
++ [[ 0 == \1 ]]
++ echo 'Output doesn'\''t meet the expectations'
+Output doesn't meet the expectations
++ grep :
++ ./a.out 10 1000 10 1
+++ awk '{for(i=1;i<=NF;i++){sum+=1}}END{print sum}' 'RS=$' 'FPAT=-{0,1}[0-9]+' tmp
++ COUNT=
++ [[ '' == \1\0 ]]
++ echo 'Debugging output doesn'\''t match'
+Debugging output doesn't match
++ echo '5/10 marks'
+5/10 marks

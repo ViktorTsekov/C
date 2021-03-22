@@ -1,0 +1,19 @@
+Trying to build test.c with your library: 
+gcc -Wall test.c table.c -I.
+OK!
+Own test seems to be executable
+1/1 marks
+Linking library to your code
+gcc -Wall /mnt/8/./lookup/test/testcases.c table.c -I.
+/mnt/8/./lookup/test/testcases.c: In function 'main':
+/mnt/8/./lookup/test/testcases.c:41:25: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       tbl_set(&x, i, j, (void*) (i+j));
+                         ^
+/mnt/8/./lookup/test/testcases.c:43:17: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       if(val != (void*) (i+j)) correct = false;
+                 ^
+OK!
+tbl_init(): Correctly initialized OK
+tbl_get/set() simple: OK
+tbl_get/set(): OK
+           (nil)             0x1             0x2             0x3             0x4             0x5             0x6             0x7             0x8             0x9             0x1             0x2             0x3             0x4             0x5             0x6             0x7             0x8             0x9             0xa             0x2             0x3             0x4             0x5             0x6             0x7             0x8             0x9             0xa             0xb             0x3             0x4             0x5             0x6             0x7             0x8             0x9             0xa             0xb             0xc             0x4             0x5             0x6             0x7             0x8             0x9             0xa             0xb             0xc             0xd             0x5             0x6             0x7             0x8             0x9             0xa             0xb             0xc             0xd             0xe             0x6             0x7             0x8             0x9             0xa             0xb             0xc             0xd             0xe             0xf             0x7             0x8             0x9             0xa             0xb             0xc             0xd             0xe             0xf            0x10             0x8             0x9             0xa             0xb             0xc             0xd             0xe             0xf            0x10            0x11             0x9             0xa             0xb             0xc             0xd             0xe             0xf            0x10            0x11            0x125/5 marks

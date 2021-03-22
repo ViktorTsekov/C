@@ -1,0 +1,7 @@
+gy001040,29 marks
+complexity/marked.txt:3/4 marks
+lookup/marked.txt:1/1 marks
+lookup/marked.txt:5/5 marks
+qsort/marked.txt:8/8 marks
+qsort/marked.txt:2/2 marks
+timing2/marked.txt:10/10 marks

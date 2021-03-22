@@ -1,0 +1,56 @@
+Found the correct construct!
+
+Building algo1-for.c 
+gcc -Wall algo1-for.c
+OK!
+Result OK
+Found the correct construct!
+
+Building algo1-while.c 
+gcc -Wall algo1-while.c
+OK!
+Result OK
+Found the correct construct!
+
+Building algo1-goto.c 
+gcc -Wall algo1-goto.c
+OK!
+Result OK
+
+Building algo1-recursive.c 
+gcc -Wall algo1-recursive.c
+OK!
+Result OK
+Found the correct construct!
+
+Building algo2-for.c 
+gcc -Wall algo2-for.c
+OK!
+Result OK
+Found the correct construct!
+
+Building algo2-while.c 
+gcc -Wall algo2-while.c
+OK!
+/mnt/4/./loops/run-marking.sh: line 8:   208 Segmentation fault      (core dumped) ./a.out $arg > tmp
+1d0
+< no palindrome
+Argument:  expected: no palindrome
+Result is unexpected (1 marks)
+Found the correct construct!
+
+Building algo2-goto.c 
+gcc -Wall algo2-goto.c
+OK!
+Result OK
+
+Building algo2-recursive.c 
+gcc -Wall algo2-recursive.c
+OK!
+1c1
+< no palindrome
+---
+> palindrome
+Argument: aweseswa expected: no palindrome
+Result is unexpected (2 marks)
+9/12 marks

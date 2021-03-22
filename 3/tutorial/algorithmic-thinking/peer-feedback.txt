@@ -1,0 +1,3 @@
+I have checked Denis algorithm and it is working fine.
+However some of the variables were not named properly and part of the code was hard to read.
+The algorithm performs the task that it is given correctly with no errors.

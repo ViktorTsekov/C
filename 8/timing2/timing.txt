@@ -1,0 +1,9 @@
+n, malloc, free, callbyvalue, callbyreference
+1, 4000, 4000, 2000, 2000
+10, 3000, 2000, 3000, 2000
+100, 3000, 4000, 3000, 3000
+1000, 10000, 3000, 9000, 9000
+10000, 113000, 2000, 77000, 119000
+100000, 956000, 44000, 604000, 603000
+
+The values from the beginning appears to be the same but after 1000 iterations the time taken for computing grows exponentialy;

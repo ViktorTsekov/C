@@ -1,0 +1,4 @@
+Checking 
+Enough text provided
+algorithm.odg is missing
+4/6 marks

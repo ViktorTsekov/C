@@ -1,0 +1,6 @@
+A bashscript must start with: #!/bin/bash
+The next time you won't receive any marks!
+The format isn't as expected, it should be e.g. 0,1,1,2,3. The next time it will be 0 marks!
+3/4 marks
+fibonacci.odg created
+2/2 marks

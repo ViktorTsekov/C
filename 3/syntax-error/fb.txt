@@ -1,0 +1,3 @@
+30
+
+The program was hard to read due to the inappropriate name of the variables, however most of the errors were easy to spot.

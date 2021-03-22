@@ -1,0 +1,3 @@
+40
+
+The task was very clear. It was easy to do it after I have learned how to use the header files.

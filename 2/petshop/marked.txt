@@ -1,0 +1,19 @@
+A bashscript must start with: #!/bin/bash
+The next time you won't receive any marks if not done properly!
+Sorting petshop1.sh works!
+A bashscript must start with: #!/bin/bash
+The next time you won't receive any marks if not done properly!
+Sorting petshop2.sh works!
+A bashscript must start with: #!/bin/bash
+The next time you won't receive any marks if not done properly!
+Sorting petshop3.sh works!
+A bashscript must start with: #!/bin/bash
+The next time you won't receive any marks if not done properly!
+Sorting petshop4.sh works!
+A bashscript must start with: #!/bin/bash
+The next time you won't receive any marks if not done properly!
+Sorting petshop5.sh works!
+A bashscript must start with: #!/bin/bash
+The next time you won't receive any marks if not done properly!
+Sorting petshop6.sh works!
+6/6 marks

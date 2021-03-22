@@ -1,0 +1,2 @@
+The complexity of this task is a little bit higher.
+We calculate the sum one time for n iterations and then put it through a loop again.

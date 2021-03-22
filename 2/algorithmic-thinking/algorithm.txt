@@ -1,0 +1,15 @@
+/*The pseudocode below describes algorithm for washing teeth*/
+
+1) Check if we have toothpaste
+	-> yes: Proceed to (Step 2)
+	-> no: buy some toothpaste and return to (Step 1)
+2) Check if we have brush
+	-> yes: Proceed to (Step 3)
+	-> no: Go to the store, buy a toothbrush and then return to (Step2)
+3) Take the toothbrush and the toothpaste and put a little bit of toothpaste on the brush
+4) Open the tap and gently put the toothbrush under the stream of water
+5) Start brushing your teeth
+6) When you are done spit out
+7) Wash your mouth and the toothbrush with some water
+8) Put the toothbrush and the toothpaste back to their place 
+9) Terminate the action

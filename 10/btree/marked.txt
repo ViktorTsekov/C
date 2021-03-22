@@ -1,0 +1,7 @@
+Trying to build with the prescribed API
+gcc -Wall -g3 /mnt/10/./btree/test/main.c btree.c -I.
+/tmp/ccLKfd4r.o: In function `main':
+/mnt/10/./btree/test/main.c:70: undefined reference to `btree_traverse_preorder'
+collect2: error: ld returned 1 exit status
+Error, couldn't build using the API
+0/18 marks
